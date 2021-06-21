@@ -1,0 +1,285 @@
+
+<html>
+    <head>
+        <title>User Page</title>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+              <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <style>
+                      body {font-family: Arial;}
+
+/* Style the tab */
+                              .tab {
+                                       overflow: hidden;
+                                       border: 1px solid #ccc;
+                                       background-color: #f1f1f1;
+                                    }
+
+/* Style the buttons inside the tab */
+                              .tab button {
+                                              background-color: inherit;
+                                              float: center;
+                                              border: none;
+                                              outline: none;
+                                              cursor: pointer;
+                                              padding: 14px 16px;
+                                              transition: 0.3s;
+                                              font-size: 17px;
+                                          }
+
+/* Change background color of buttons on hover */
+                            .tab button:hover {
+                                                 background-color: #ddd;
+                                              }
+
+/* Create an active/current tablink class */
+                            .tab button.active {
+                                                   background-color: #ccc;
+                                                }
+
+/* Style the tab content */
+                            .tabcontent {
+                                           display: none;
+                                           padding: 6px 12px;
+                                           border: 1px solid #ccc;
+                                           border-top: none;
+                                        }
+
+
+                body {font-family: "Times New Roman", Georgia, Serif;}
+                            h1, h2, h3, h4, h5, h6 {
+                                                        font-family: "Playfair Display";
+                                                        letter-spacing: 5px;
+                                                    
+       </style>
+       </head>
+  <body>
+
+<!-- Navbar (sit on top) -->
+            <div class="w3-top">
+               <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+                  <a href="userpage.html" class="w3-bar-item w3-button">Heart Disease Prediction</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+                    <div class="w3-right w3-hide-small">
+                        <a href="heartanalysis.html" class="w3-bar-item w3-button">Heart Analysis</a>
+                        <a href="doctordetails1.php" class="w3-bar-item w3-button">View Doctor  </a>
+                        <a href="userfeedback.html" class="w3-bar-item w3-button">Feed Back</a>
+                       <a href="heart1.html" class="w3-bar-item w3-button">Logout</a>
+                  </div>
+              </div>  
+            </div>
+
+<!-- Header -->
+          <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  
+          </header>
+
+<!-- Page content -->
+                <div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+                  <div class="w3-row w3-padding-64" id="about">
+    
+                  </div>
+  
+  
+  <!-- Menu Section -->
+                  <div class="w3-row w3-padding-10" id="menu">
+    
+                            <h1 class="w3-center">Analyse Heart</h1>
+      
+                              <div class="tab">
+                                     <a href="####"> <button class="tablinks" onclick="openCity(event, 'London')"></button></a>
+                                     <a href="####"> <button class="tablinks" onclick="openCity(event, 'Paris')"></button></a>
+                                     <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                                     <a href="####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                                     <a href="####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                                     <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                                     <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                                     <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                                     <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                                     <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                                     <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                                     <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                                     <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>      
+                              </div>
+    
+                <div class="w3-col l6 w3-padding-large">
+        
+              </div>
+
+
+              <div class="w3-row w3-padding-20" id="about">
+                     <div class="w3-col m6 w3-padding-large w3-hide-small">
+                         <img src="doctor.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="1000" height="500">
+                   </div>
+              </div>
+  <!-- Contact Section -->
+              <div class="w3-container w3-padding-64" id="contact">
+                  <center><form>
+  
+                        <input type="text" id="fname" name="fname" placeholder="Chest Pain Type"><br>
+                          <br>
+                        <input type="text" id="address" name="lname" placeholder="Fasting Blood Sugar">
+                          <br><br>
+                        <input type="text" id="address" name="lname" placeholder="Resting Electrographics  ">
+                          <br><br>
+                        <input type="text" id="address" name="lname" placeholder="Exercise Induced Angina">
+                          <br><br>
+                        <input type="text" id="address" name="lname" placeholder="Slope ">
+                          <br><br>
+                        <input type="text" id="address" name="lname" placeholder="No.of Major Vessels(CA) ">
+                          <br><br>
+                        <input type="text" id="address" name="lname" placeholder="Thai">
+                          <br><br>
+                        <input type="text" id="address" name="lname" placeholder="Trest Blood Pressure ">
+                          <br><br>
+                        <input type="text" id="address" name="lname" placeholder="Serum cholesterol ">
+                          <br><br>
+                        <input type="text" id="address" name="lname" placeholder="Maximum Heart Rate achieved (Thalach) ">
+                           <br><br>
+                        <input type="text" id="address" name="lname" placeholder="ST Depression Induced by Exercise(Old peak) ">
+                          <br><br>
+ 
+                          <br>
+                          <br>
+ 
+              <center> <input type="submit" value="Analyse Heart"></center>
+          </form>
+              </center>
+
+  </div>
+  
+<!-- End page content -->
+      </div>
+
+<!-- Footer -->
+              <footer class="w3-center w3-light-grey w3-padding-32">
+                  <p>Powered by team @heartcare <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">.com</a></p>
+            </footer>
+        </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

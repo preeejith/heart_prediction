@@ -1,0 +1,89 @@
+<html>
+      <head><title>User FeedBack </title>
+
+          <style>
+                body {font-family: Arial;}
+
+/* Style the tab */
+                      .tab {
+                               overflow: hidden;
+                               border: 1px solid #ccc;
+                               background-color: #f1f1f1;
+                            }
+
+/* Style the buttons inside the tab */
+                      .tab button {
+                                       background-color: inherit;
+                                       float: center;
+                                       border: none;
+                                       outline: none;
+                                       cursor: pointer;
+                                       padding: 14px 16px;
+                                       transition: 0.3s;
+                                       font-size: 17px;
+                                  }
+
+/* Change background color of buttons on hover */
+                      .tab button:hover {
+                                          background-color: #ddd;
+                                        }
+
+/* Create an active/current tablink class */
+                      .tab button.active {
+                                           background-color: #ccc;
+                                          }
+
+/* Style the tab content */
+                       .tabcontent {
+                                      display: none;
+                                      padding: 6px 12px;
+                                      border: 1px solid #ccc;
+                                      border-top: none;
+                                   }
+          </style>
+
+          <style>
+
+
+              h1 {
+                     background-color: #0AA009;
+                  }
+
+
+          </style>
+
+
+        </head>
+              <body>
+                  	<hr>
+                        <img src="hearttop.jpg" alt="heart" style="width:1400px;height:300px;">
+                    <hr>
+                      <br>
+                          <div class="tab">
+                              <a href="heartanalysis.html"> <button class="tablinks" onclick="openCity(event, 'London')">Heart Analysis</button></a>
+                               <a href="heartanalysis.html"> <button class="tablinks" onclick="openCity(event, 'Paris')"></button></a>
+                               <a href="doctordetails.html"> <button class="tablinks" onclick="openCity(event, 'Tokyo')">View Doctor</button></a>
+                               <a href="doctordetails.html"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                               <a href="userfeedback.html"> <button class="tablinks" onclick="openCity(event, 'Tokyo')">FeedBack</button></a>
+                               <a href="userfeedback.html"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                               <a href="heart1.html"> <button class="tablinks" onclick="openCity(event, 'Tokyo')">Logout</button></a>
+                          </div>
+
+                    <br>
+
+
+            <center>   <h1 style="color:white;">--Provide FeedBack--</h1></center>
+
+            <center><form   action="userfeedback.php" method="POST">
+
+                  <br>
+                  <br>
+                   <input type="text" id="address" name="name" placeholder="Name ">
+                  <br><br>
+                       <input type="text" id="address" name="feedback" placeholder="feedback "><br><br>
+            <center> <input type="submit" value="Submit"></center>
+                  </form>
+            </center>
+
+      </body>
+</html>

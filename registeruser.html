@@ -1,0 +1,320 @@
+<html>
+      <head>
+          <title>User Page</title>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <style>
+                body {font-family: Arial;}
+
+/* Style the tab */
+                              .tab {
+                                       overflow: hidden;
+                                       border: 1px solid #ccc;
+                                       background-color: #f1f1f1;
+                                    }
+
+/* Style the buttons inside the tab */
+                              .tab button {
+                                              background-color: inherit;
+                                              float: center;
+                                              border: none;
+                                              outline: none;
+                                              cursor: pointer;
+                                              padding: 14px 16px;
+                                              transition: 0.3s;
+                                              font-size: 17px;
+                                          }
+
+/* Change background color of buttons on hover */
+                            .tab button:hover {
+                                                 background-color: #ddd;
+                                              }
+
+/* Create an active/current tablink class */
+                            .tab button.active {
+                                                   background-color: #ccc;
+                                                }
+
+/* Style the tab content */
+                            .tabcontent {
+                                           display: none;
+                                           padding: 6px 12px;
+                                           border: 1px solid #ccc;
+                                           border-top: none;
+                                        }
+
+            body {font-family: "Times New Roman", Georgia, Serif;}
+                          h1, h2, h3, h4, h5, h6 {
+                                                    font-family: "Playfair Display";
+                                                    letter-spacing: 5px;
+                                                  }
+          </style>
+     </head>
+   <body>
+<!-- Navbar (sit on top) -->
+                      <div class="w3-top">
+                        <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+                          <a href="heart1.html" class="w3-bar-item w3-button">Heart Disease Prediction</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+                            <div class="w3-right w3-hide-small">
+                                <a href="heart1.html" class="w3-bar-item w3-button">Home</a>
+                                <a href="#home" class="w3-bar-item w3-button"> </a>
+                                <a href="#home" class="w3-bar-item w3-button"></a>
+                                <a href="#home" class="w3-bar-item w3-button"></a>
+                           </div>
+                         </div>
+                    </div>
+
+<!-- Header -->
+          <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  
+          </header>
+
+<!-- Page content -->
+    <div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+        <div class="w3-row w3-padding-64" id="about">
+    
+            </div>  
+ <!-- Menu Section -->
+        <div class="w3-row w3-padding-10" id="menu">
+               <h1 class="w3-center">Signup</h1>     
+                     <div class="tab">
+                             <a href="####"> <button class="tablinks" onclick="openCity(event, 'London')"></button></a>
+                             <a href="####"> <button class="tablinks" onclick="openCity(event, 'Paris')"></button></a>
+                             <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                             <a href="####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                             <a href="####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                             <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                             <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                             <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                             <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                             <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                             <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                             <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>
+                             <a href="#####"> <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button></a>      
+                      </div>
+    
+       <div class="w3-col l6 w3-padding-large">
+    </div>
+
+      <div class="w3-row w3-padding-20" id="about">
+          <div class="w3-col m6 w3-padding-large w3-hide-small">
+              <img src="doctor.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="1000" height="500">
+      </div>
+  </div>
+
+
+
+  <!-- Contact Section -->
+       <div class="w3-container w3-padding-64" id="contact">
+          </center>
+                  <center>
+                      <form action="./insert.php" method=POST>
+                            <input type="text" id="username" name="Username" placeholder="Name"><br>
+                              <br>
+                            <input type="text" id="address" name="Address" placeholder="Address">
+                             <br><br>
+                            <input type="text" id="mobileno" name="MobileNo" placeholder="Mobile No ">
+                              <br><br>
+                            <input type="text" id="email" name="Email" placeholder="Email">
+                              <br><br>
+                            <input type="text" id="age" name="Age" placeholder="Age ">
+                              <br><br>
+                        <label>District   </label>
+                                 <select  name="District">
+                                             <option value="nill">select</option>
+                                             <option value="ernakulam">Ernakulam</option>
+                                             <option value="thiruvananthapuram">Thiruvananthapuram</option>
+                                             <option value="thissur">Thissur</option>
+                                             <option value="kozhikodu">kozhikodu</option>
+                                             <option value="malapuram">Malapuram</option>
+                                             <option value="kottayam">Kottayam</option>
+                                             <option value="kannur">Kannur</option>
+                                             <option value="kasarkodu">Kasarkodu</option>  
+                                             <option value="pathanamthitta">Pathanamthitta</option>
+                                             <option value="alapuzha">Alapuzha</option>
+                                             <option value="idukki">Idukki</option>
+                                             <option value="wayanad">Wayanad</option>  
+                                             <option value="kollam">Kollam</option>
+                                            <option value="palakkad">Palakkad</option>
+                                </select>
+                                <br><br>
+                                    Gender :<input type="radio" id="male" name="Gender" value="m">
+                                            <label for="male">Male</label>
+                                            <input type="radio" id="female" name="Gender" value="f">
+                                            <label for="female">Female</label>
+                                            <input type="radio" id="other" name="Gender" value="o">
+                                            <label for="other">Other</label>
+                                <br>
+                                <br>
+                                            <input type="text" id="pwd" name="Password" placeholder="Password ">
+                              <br><br>
+                              <center> 
+                                    <input type="submit" value="Submit" name="Submit"></center>
+                          </form>
+                              </center>
+
+                           </div>
+  
+<!-- End page content -->
+                            </div>
+
+<!-- Footer -->
+                            <footer class="w3-center w3-light-grey w3-padding-32">
+                                      <p>Powered by team @heartcare <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">.com</a></p>
+                            </footer>
+
+          </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
